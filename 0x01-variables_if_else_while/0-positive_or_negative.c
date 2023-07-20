@@ -4,7 +4,8 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - assign a random number to the variable n each time its executed
+ * main - assign a random number for the variable n, each time executed
+ *
  * Return: always 0
  */
 
@@ -18,10 +19,9 @@ int main(void)
 	if (n > 0)
 		printf("%d is positive", n);
 	else if (n == 0)
-		printf("%d is zero", n);
-	else if
-		(n < 0)
+		printf("%d is zero", n)
+	else
 		printf("%d is negative", n);
-	printf("\n");
+	printf("\n")
 	return (0);
 }
