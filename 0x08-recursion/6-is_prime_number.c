@@ -19,6 +19,7 @@ int is_prime_number(int n)
  * actual_prime - calculates if a number is a prime recursively
  * @n: number to evaluate
  * @i: iterator
+ * Return: 1 if n is a prime, 0 if not
  */
 
 int actual_prime(int n, int i)
