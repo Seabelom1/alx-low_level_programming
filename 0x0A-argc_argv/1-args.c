@@ -3,14 +3,14 @@
 
 /**
  * main - print the number of arguments passed to the program
- * @agrc: number of arguments
- * @agrv: array of arguments
+ * @argc: arguments count
+ * @argv: arguments vector
  * Return: Always 0(Success)
  */
-int main(int argc, char *agrv[])
+int main(int argc, char *argv[])
 {
-(void)agrv; /*ignore argv*/
-	printf("%d\n", argc - 1);
+	(void) argv;
 
+	printf("%d\n", argc - 1);
 	return (0);
 }
